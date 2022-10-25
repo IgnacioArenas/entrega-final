@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Desafío 6 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <h1> Old Aatrox </h1>
+    <form id="formulario">
+        <label for="nombre"> Nombre de invocador: </label>
+        <input id="nombre" type="text">
+        <br><br>
+
+        <label for="liga"> Liga: </label>
+        <input id="liga" type="text">
+        <br><br>
+
+        <label for="campeon"> Campeón favorito: </label>
+        <select name="campeon" id="campeon">
+            <option value="aatrox"> Aatrox </option>
+            <option value="darius"> Darius </option>
+            <option value="garen"> Garen </option>
+            <option value="yasuo"> Yasuo </option>
+            <option value="zed"> Zed </option>
+        </select>
+        <button> Aceptar </button>
+    </form>
+    
+    <br><br>
+    <button id="verDatos"> Ver estadísticas </button>
+    <div id="contenedorDatos"></div>
+
+    <h2> Muestras de campeones </h2>
+    <div>
+        <button id="botonAatrox" class="btn btn-danger m-5"> Aatrox </button>
+        <button id="botonDarius" class="btn btn-primary m-5"> Darius </button>
+        <button id="botonGaren" class="btn btn-primary m-5"> Garen </button>
+        <button id="botonYasuo" class="btn btn-primary m-5"> Yasuo </button>
+        <button id="botonZed" class="btn btn-primary m-5"> Zed </button>
+    </div>
+    <div id="champs"></div>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="lol.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+[
+    {"nombre": "Aatrox", "precio": 4800, "id": 1},
+    {"nombre": "Darius", "precio": 4800, "id": 2},
+    {"nombre": "Garen", "precio": 450, "id": 3},
+    {"nombre": "Yasuo", "precio": 4800, "id": 4},
+    {"nombre": "Zed", "precio": 4800, "id": 5}
+]
